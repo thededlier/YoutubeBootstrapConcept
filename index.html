@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+	
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+	<title>FaceTube</title>	
+	
+</head>
+
+<body>
+	<!--Navigation menu-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">FaceTube</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+			</ul>
+			<!-- Search form == Note: Increase size?? -->
+			<form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Search">
+				</div>
+				<button type = "submit" class = "btn btn-default">Submit</button>
+			</form>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- end navbar -->
+	<br><br>
+	<!--Content-->
+	<div class="container-fluid">
+		<div class="row">
+			<!--Video column-->
+			<div class="col-sm-8" float="left">
+				<video controls margin-top="20px" width="100%">
+					<source src = "files/TGF_LOW.mp4">
+				</video>
+				<div class="row">
+					<div class="col-sm-8" id="box" float="left">
+						<h2>The Gaming Fest 2016 Trailer</h2>
+					</div>
+					<!--Description-->
+					<div class="col-sm-8" id="box" float="left">
+						<p class="upload-data">Uploaded on Jun 16,2009</p>
+						<p>Music video by Nelly Furtado performing Promiscuous. (C) 2006 Geffen Records</p>
+						<a class="collapse-desc" href="#desc" data-toggle="collapse">Click for more</a>
+						<div id="desc" class="collapse">
+							<p>This is going to be part of the description</p>
+						</div>
+					</div>
+					<!--Comments-->
+					<div class="col-sm-8" id="box" float="left">
+						<h3>Comments</h3>
+						<div class="row">
+							<div class="col-sm-2" float="left">
+								<img src="files/vid-thumb.png" class="img-thumbnail">
+							</div>
+							<div class="col-sm-10" float="right">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Enter a comment">
+								</div>
+							</div>
+						</div>
+						<hr />
+						
+						<h5 style="font-weight: bold">Top Comments</h5>
+						
+						<div class="row" id="comment">
+							<div class="col-sm-2" float="left">
+								<img src="files/vid-thumb.png" class= "img-thumbnail">
+							</div>
+							<div class="col-sm-10" float="right">
+								<a href="#" id="comm-user">CommentingUserName</a>
+								<p> Ignore all of the mixed up content</p>
+							</div>
+						</div>
+						<div class="row" id="comment">
+							<div class="col-sm-2" float="left">
+								<img src="files/vid-thumb.png" class= "img-thumbnail">
+							</div>
+							<div class="col-sm-10" float="right">
+								<a href="#" id="comm-user">CommentingUserName</a>
+								<p> Didnt really have any great ideas for text</p>
+							</div>
+						</div>
+						<div class="row" id="comment">
+							<div class="col-sm-2" float="left">
+								<img src="files/vid-thumb.png" class= "img-thumbnail">
+							</div>
+							<div class="col-sm-10" float="right">
+								<a href="#" id="comm-user">CommentingUserName</a>
+								<p> BroTube sounds like something Niel Patrick Harris would say</p>
+							</div>
+						</div>
+						<div class="row" id="comment">
+							<div class="col-sm-2" float="left">
+								<img src="files/vid-thumb.png" class= "img-thumbnail">
+							</div>
+							<div class="col-sm-10" float="right">
+								<a href="#" id="comm-user">CommentingUserName</a>
+								<p> That discription is weird</p>
+							</div>
+						</div>
+						<div class="row" id="comment">
+							<div class="col-sm-2" float="left">
+								<img src="files/vid-thumb.png" class= "img-thumbnail">
+							</div>
+							<div class="col-sm-10" float="right">
+								<a href="#" id="comm-user">CommentingUserName</a>
+								<p> FaceTube is not the most creative name</p>
+							</div>
+						</div>
+						
+						<div class="row" id="comment">
+							<div class="col-sm-2" float="left">
+								<img src="files/vid-thumb.png" class= "img-thumbnail">
+							</div>
+							<div class="col-sm-10" float="right">
+								<a href="#" id="comm-user">CommentingUserName</a>
+								<p> Cant believe how old this is</p>
+							</div>
+						</div>
+						
+						<div class="row" id="comment">
+							<div class="col-sm-2" float="left">
+								<img src="files/vid-thumb.png" class= "img-thumbnail">
+							</div>
+							<div class="col-sm-10" float="right">
+								<a href="#" id="comm-user">CommentingUserName</a>
+								<p> Cant believe how old this is</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--Sugested videos section -->
+			<div class="col-sm-3" float="right" width="100%">
+				<a href="#">                    
+					<div class="row" id="list">
+						<div class="col-sm-5" float="left">
+							<img class="img-thumbnail" src="files/vid-thumb.png">
+						</div>
+						<div class="col-sm-7" float="right">
+							<h4>Fix You</h4>
+							<p>ColdPlay</p>
+						</div>
+					</div>
+				</a>
+				<a href="#">                    
+					<div class="row" id="list">
+						<div class="col-sm-5" float="left">
+							<img class="img-thumbnail" src="files/vid-thumb.png">
+						</div>
+						<div class="col-sm-7" float="right">
+							<h4>Back In Black</h4>
+							<p>ACDC</p>
+						</div>
+					</div>
+				</a>
+				<a href="#">                    
+					<div class="row" id="list">
+						<div class="col-sm-5" float="left">
+							<img class="img-thumbnail" src="files/vid-thumb.png">
+						</div>
+						<div class="col-sm-7" float="right">
+							<h4>YODA Remake</h4>
+							<p>Rohan</p>
+						</div>
+					</div>
+				</a>
+				<a href="#">                    
+					<div class="row" id="list">
+						<div class="col-sm-5" float="left">
+							<img class="img-thumbnail" src="files/vid-thumb.png">
+						</div>
+						<div class="col-sm-7" float="right">
+							<h4>Lalala</h4>
+							<p>Sam Smith</p>
+						</div>
+					</div>
+				</a>
+				<a href="#">                    
+					<div class="row" id="list">
+						<div class="col-sm-5" float="left">
+							<img class="img-thumbnail" src="files/vid-thumb.png">
+						</div>
+						<div class="col-sm-7" float="right">
+							<h4>Thrift Shop</h4>
+							<p>Mackelmore</p>
+						</div>
+					</div>
+				</a>
+				<a href="#">                    
+					<div class="row" id="list">
+						<div class="col-sm-5" float="left">
+							<img class="img-thumbnail" src="files/vid-thumb.png">
+						</div>
+						<div class="col-sm-7" float="right">
+							<h4>The Gaming Fest</h4>
+							<p>By Rohan</p>
+						</div>
+					</div>
+				</a>
+				<a href="#">                    
+					<div class="row" id="list">
+						<div class="col-sm-5" float="left">
+							<img class="img-thumbnail" src="files/vid-thumb.png">
+						</div>
+						<div class="col-sm-7" float="right">
+							<h4>The Gaming Fest</h4>
+							<p>By Rohan</p>
+						</div>
+					</div>
+				</a>
+				<a href="#">                    
+					<div class="row" id="list">
+						<div class="col-sm-5" float="left">
+							<img class="img-thumbnail" src="files/vid-thumb.png">
+						</div>
+						<div class="col-sm-7" float="right">
+							<h4>The Gaming Fest</h4>
+							<p>By Rohan</p>
+						</div>
+					</div>
+				</a>
+				<a href="#">                    
+					<div class="row" id="list">
+						<div class="col-sm-5" float="left">
+							<img class="img-thumbnail" src="files/vid-thumb.png">
+						</div>
+						<div class="col-sm-7" float="right">
+							<h4>The Gaming Fest</h4>
+							<p>By Rohan</p>
+						</div>
+					</div>
+				</a>
+				<a href="#">                    
+					<div class="row" id="list">
+						<div class="col-sm-5" float="left">
+							<img class="img-thumbnail" src="files/vid-thumb.png">
+						</div>
+						<div class="col-sm-7" float="right">
+							<h4>The Gaming Fest</h4>
+							<p>By Rohan</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<!--Footer-->
+	<div class="panel-footer">
+		<p>This is a sample project created by Rohan Anand as a wEBARCH assignment</p>
+	</div>
+	
+</body>
+
+</html>
